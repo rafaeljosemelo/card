@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(font/Comfortaa-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(img/fundo.jpg) center center no-repeat fixed;
+    background-size: cover
+    ;
+    font-family: Comfortaa;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    border: 1px solid white;
+    height: 80%;
+    width: 80%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+}
+
+img {
+    border-radius: 50%;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section p {
+    max-width: 300px;
+    text-align: justify;
+    line-height: 2em;
+}
+
+section nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
