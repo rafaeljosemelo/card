@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Comfortaa';
-    src: url(font/Comfortaa-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 * {
     margin: 0px;
@@ -9,58 +6,57 @@
 }
 
 body {
-    background: url(img/fundo.jpg) center center no-repeat fixed;
-    background-size: cover
-    ;
-    font-family: Comfortaa;
+    background: url(img/fundo.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
     color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+
+div.container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-main {
+div.card {
+    width: 300px;
+    height: 550px;
+    margin-top: 20px;
+    background-color: rgba(57, 60, 61, 0.692);
     border: 1px solid white;
-    height: 80%;
-    width: 80%;
+    border-radius: 10px;
 }
 
-header {
+div.img-container {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.5em;
+    justify-content: center;
 }
 
-img {
+.main-img { 
+    margin-top: 20px;
     border-radius: 50%;
 }
 
-section {
-    display: flex;
-    justify-content: space-evenly;
+div.text {
+   text-align: center;
 }
 
-section p {
-    max-width: 300px;
-    text-align: justify;
+.title {
+    margin-top: 20px;
+}
+
+.description {
+    margin: 20px 0px;
+    text-align: center;
     line-height: 2em;
+    padding: 0px 15px;
 }
 
-section nav {
+div.links {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
-ul {
-    list-style: none;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
+.space {
+    margin-left: 15px;
 }

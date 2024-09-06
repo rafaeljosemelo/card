@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portifolio</title>
+    <title>Card</title>
 </head>
 <body>
-    <main>
-        <header>
-            <img src="img/foto.jpg">
-            <h1>Rafael Melo</h1>
-        </header>
-        <section>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://github.com/rafaeljosemelo" target="_blank">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">LinkedIn</a>
-                    </li>
-                </ul>
+    <div class="container">
+        <div class="card">
+            <div class="img-container">
+                <img src="img/foto.jpg" class="main-img">
+            </div>
+            <div class="text">
+                <h1 class="title">Rafael Melo</h1>
+                <p class="description">
+                    Olá, como você já viu acima meu nome é Rafael, estou começando no mundo do desenvolvimento web, criei este pequeno card para me apresentar. Abaixo você verá onde estou presente.
+                </p>
+            </div>
+            <div class="links">
+                <nav>
+                    <a href="https://github.com/rafaeljosemelo" target="_blank">
+                        <img src="img/github-logo.png">
+                    </a>
+                    <a href="#" class="space">
+                        <img src="img/linkedin-logo.png">
+                    </a>
+            </div>
             </nav>
-            <p>Bem-vindo! Estou começando no desenvolvimento web, criei este pequeno site para testar meus conhecimentos.</p>
-        </section>
-    </main>
+        </div>
+    </div>
 </body>
 </html>
